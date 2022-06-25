@@ -134,7 +134,6 @@ Public Class frmFtpSimpleClient
             MessageBox.Show(ex.Message)
         End Try
         Me.Cursor = Cursors.Default
-        txtLocalFileName.Clear()
         Label1.Text = "File Upload: " & txtLocalFileName.Text
     End Sub
 
